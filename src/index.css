@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@font-face {
+    font-family: 'HeyComic';
+    src: url('/src/Hey\ Comic.ttf') format('truetype'); /* Adjust the path */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .custom-text {
+    font-family: 'HeyComic', sans-serif;
+    font-weight: 100;
+  }
+
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .animate-scroll {
+    display: flex;
+    width: max-content;
+    animation: scroll 50s linear infinite; /* Speed কমানো হয়েছে */
+  }
+
