@@ -36,7 +36,7 @@ const Nav = () => {
 
         {/* Right Side - Resume Button (For All Screens) */}
         <a
-          href="https://drive.google.com/file/d/11JEoaJua5Jy__xxsm5KpKnuyBt2YUuwv/view?usp=sharing"
+          href="https://drive.google.com/file/d/1XGm-Mt8RjL1FYJh_f6fk19wfzvPgeQVr/view?usp=sharing"
           target="_blank"
           className="bg-gray-900 border-b border-purple-600 hover:bg-[#7A34F2] text-white  py-2 px-4 rounded-full transition"
         >

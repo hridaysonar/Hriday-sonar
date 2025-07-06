@@ -51,7 +51,7 @@ const Admin = () => {
     }
 
     try {
-      await axios.post(`https://user-task-server-rouge.vercel.app/works`, formData);
+      await axios.post(`https://hriday-personal-server.vercel.app/works`, formData);
       Swal.fire('✅ Success!', 'Work item added successfully!', 'success');
       setSubmittedProjects(prev => [...prev, formData]); // Add to preview
       setFormData({ title: '', image: '', link: '', repo: '', tech: '', date: '' });

@@ -8,7 +8,7 @@ const Works = () => {
   const cardsPerPage = 5;
 
   useEffect(() => {
-    axios.get(`https://user-task-server-rouge.vercel.app/works`)
+    axios.get(`https://hriday-personal-server.vercel.app/works`)
       .then(res => setProjects(res.data))
       .catch(err => console.error('Error fetching projects:', err));
   }, []);

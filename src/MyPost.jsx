@@ -5,7 +5,7 @@ const MyPost = ({ user }) => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        axios.get(`https://user-task-server-rouge.vercel.app/works`)
+        axios.get(`https://hriday-personal-server.vercel.app/works`)
             .then(res => setPosts(res.data))
             .catch(err => console.error(err));
     }, []);
@@ -13,7 +13,7 @@ const MyPost = ({ user }) => {
     const handleDelete = async (id) => {
         const confirm = window.confirm("Are you sure you want to delete?");
         if (confirm) {
-            await axios.delete(`https://user-task-server-hridaysonar-hriday-sonars-projects.vercel.app/works/${id}`);
+            await axios.delete(`https://hriday-personal-server.vercel.app/works/${id}`);
             setPosts(posts.filter(post => post._id !== id));
         }
     };
