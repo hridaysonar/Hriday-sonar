@@ -8,15 +8,26 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import About from './About.jsx';
+import Admin from './Admin.jsx';
+import MyPost from './MyPost.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:Notification,
     children: [
       {
         path:'/',
         element: <About></About>
+      },
+      {
+        path:'/admin01748662245',
+        element:<Admin/>
+      },
+      {
+        path:'/mypost01748662245',
+        element:<MyPost/>
       }
     ]
   },

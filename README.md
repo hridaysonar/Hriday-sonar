@@ -11,6 +11,6 @@ I'm a **Frontend Developer** and **MERN Stack Specialist** with expertise in **R
 - **Tools & Platforms:** Git, GitHub, Firebase, Vercel, Netlify  
 
 ## 📂 My Portfolio  
-🚀 **Live Portfolio:** [Visit My Portfolio]( https://rizonahmed.netlify.app/ )  
+🚀 **Live Portfolio:** [Visit My Portfolio]( https://cosmic-arithmetic-c2d31e.netlify.app/ )  
 🔹 **Tech Used:** React.js, Tailwind CSS, Framer Motion  
 💡 _I'm always open to collaborations and new opportunities!_ 🚀  

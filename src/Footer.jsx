@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsFacebook, BsTwitterX } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsFacebook, BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 
 const Footer = () => {
@@ -17,6 +17,15 @@ const Footer = () => {
           <a href="https://www.facebook.com/share/1ET2TZ9CUK/" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:shadow-lg transition-all duration-300">
             <BsFacebook />
           </a>
+          <a
+  href="https://wa.me/8801748662245"
+  target="_blank"
+  rel="noopener noreferrer"
+  className=" text-xl hover:shadow-lg transition-all duration-300"
+>
+  {/* You can use a WhatsApp icon here, for example from react-icons */}
+  <BsWhatsapp />
+</a>
           <a href="https://www.linkedin.com/in/hridoy-sonar-94b42a331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-white text-xl hover:shadow-lg transition-all duration-300">
             <BsLinkedin />
           </a>

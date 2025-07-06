@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Skill from './Skill';
 import Works from './Works';
 import imgy from '../public/img/hriday.jpg'
+
 import { FaArrowRight } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -24,7 +25,7 @@ const About = () => {
           {/* Text Section */}
           <div className="text-center md:text-left pl-4">
             <p className="text-lg mt-8">Hello there 👋</p>
-            <h1 className="text-4xl text-purple-500 lg:mt-4">I'm Hriday</h1>
+            <h1 className="text-4xl text-purple-500 lg:mt-4">I'm Hriday Sonar</h1>
             <p className="text-gray-300 text-left mt-3 xl:w-11/12">
               A <span className="text-purple-500 font-semibold">FrontEnd Developer & MERN Stack Specialist.</span> I'm deeply passionate about creating innovative, responsive, and user-friendly web applications that captivate and engage users...
             </p>
