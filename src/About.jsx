@@ -7,6 +7,9 @@ import imgy from '../public/img/hriday.jpg'
 
 import { FaArrowRight } from 'react-icons/fa';
 import { Typewriter } from 'react-simple-typewriter';
+import Abouts from './Abouts';
+import ExperienceSection from './Experiences';
+import EducationSection from './Educatanal';
 
 // Try to import the image; fallback if it fails
 let hriday;
@@ -31,7 +34,7 @@ const About = () => {
             </p>
 
             <button className="mt-8 px-10 py-3 flex items-center gap-2 cursor-pointer hover:bg-purple-500 text-gray-300 border-b border-purple-800 hover:text-white rounded-full transition">
-              <a href="mailto:mdhridaysonar@gmail.com" target='_blank' rel='noopener noreferrer'>Hire Me</a>
+              <a href="#contact" rel='noopener noreferrer'>Hire Me</a>
               <FaArrowRight />
             </button>
           </div>
@@ -46,7 +49,9 @@ const About = () => {
 
         </div>
       </div>
-
+        <Abouts/>
+        <ExperienceSection/>
+        <EducationSection/>
       <Skill />
       <Works />
 

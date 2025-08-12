@@ -6,29 +6,38 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white  fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto xl:w-9/12 flex justify-between items-center bg-gray-900 px-6 py-5 rounded-2xl backdrop-blur-xl sticky  top-0">
+    <nav className="bg-black text-white fixed top-0 left-0 w-full z-50">
+      <div className="container mx-auto xl:w-9/12 flex justify-between items-center bg-gray-900 px-6 py-5 rounded-2xl backdrop-blur-xl sticky top-0">
         
         {/* Left Side - Menu Items (For Large Screens) */}
         <ul className="hidden md:flex gap-6 text-lg">
           <li>
-            <a href="#about" className="block px-4 border-b border-purple-600  py-2 rounded-full hover:bg-[#7A34F2] transition ">
-              About            </a>
-            
-          </li>
-          <li>
-            <a href="#skill" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition ">
-              Skills
-              
+            <a href="#about" className="block px-4 border-b border-purple-600 py-2 rounded-full hover:bg-[#7A34F2] transition">
+              About
             </a>
           </li>
           <li>
-            <a href="#work" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition  ">
+            <a href="#experiences" className="block px-4 border-b border-purple-600 py-2 rounded-full hover:bg-[#7A34F2] transition">
+              Experiences
+            </a>
+          </li>
+          <li>
+            <a href="#edication" className="block px-4 border-b border-purple-600 py-2 rounded-full hover:bg-[#7A34F2] transition">
+               Educational
+            </a>
+          </li>
+          <li>
+            <a href="#skill" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#work" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition">
               Works
             </a>
           </li>
           <li>
-            <a href="#contact" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition  ">
+            <a href="#contact" className="block px-4 py-2 border-b border-purple-600 rounded-full hover:bg-[#7A34F2] transition">
               Contact
             </a>
           </li>
@@ -36,13 +45,17 @@ const Nav = () => {
 
         {/* Right Side - Resume Button (For All Screens) */}
         <a
-          href="https://drive.google.com/file/d/1XGm-Mt8RjL1FYJh_f6fk19wfzvPgeQVr/view?usp=sharing"
-          target="_blank"
-          className="bg-gray-900 border-b border-purple-600 hover:bg-[#7A34F2] text-white  py-2 px-4 rounded-full transition"
+          href="https://drive.google.com/uc?export=download&id=1iYC_RSsBJPAD5lhfFYqi2sl6L5LCS8g_"
+          className="bg-gray-900 border-b border-purple-600 hover:bg-[#7A34F2] text-white py-2 px-4 rounded-full transition"
+          download
         >
           Resume
-          <BorderBeam size={300} duration={20} colorFrom={'#7A34F2'} colorTo={'#87CEEB'} />
-
+          <BorderBeam
+            size={300}
+            duration={20}
+            colorFrom={'#7A34F2'}
+            colorTo={'#87CEEB'}
+          />
         </a>
 
         {/* Mobile Menu Button */}
@@ -58,31 +71,38 @@ const Nav = () => {
       {isOpen && (
         <ul className="md:hidden bg-gray-900 cursor-pointer w-full z-10 text-center absolute top-16 left-0">
           <li className="p-4 border-b border-gray-700">
-            <a href="#about" className="block px-4 py-2 rounded-md hover:bg-[#7A34F2] transition  ">
+            <a href="#about" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
               About
             </a>
           </li>
           <li className="p-4 border-b border-gray-700">
-            <a href="#skill" className="block px-4 py-2 rounded-md hover:bg-[#7A34F2] transition  ">
+            <a href="#experiences" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
+              Experiences
+            </a>
+          </li>
+          <li className="p-4 border-b border-gray-700">
+            <a href="#edication" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
+              Educational
+            </a>
+          </li>
+          <li className="p-4 border-b border-gray-700">
+            <a href="#skill" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
               Skills
             </a>
           </li>
           <li className="p-4 border-b border-gray-700">
-            <a href="#work" className="block px-4 py-2 rounded-md hover:bg-[#7A34F2] transition  ">
+            <a href="#work" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
               Works
             </a>
           </li>
           <li className="p-4">
-            <a href="#contact" className="block  px-4 pt-2 pb-4 rounded-md hover:bg-[#7A34F2] transition  ">
+            <a href="#contact" className="block px-4 py-2 rounded-full border-b border-purple-600 hover:bg-[#7A34F2] transition">
               Contact
             </a>
           </li>
-          
         </ul>
       )}
     </nav>
-
-    
   );
 };
 

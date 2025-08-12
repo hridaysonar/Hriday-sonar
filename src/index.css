@@ -25,4 +25,7 @@
     width: max-content;
     animation: scroll 50s linear infinite; /* Speed কমানো হয়েছে */
   }
+  html {
+  scroll-behavior: smooth;
+}
 

@@ -24,7 +24,7 @@ const MyPost = ({ user }) => {
     };
 
     return (
-        <div className='p-6'>
+        <div className='p-6 mt-20'>
             <h2 className='text-xl font-bold mb-4'>🌐 All Posts</h2>
             {
                 posts.length === 0 ? (
