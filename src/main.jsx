@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-
+import Studytracker from './Studytracker.jsx';   // ← এটা ইম্পোর্ট করা আছে তো?
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,9 +21,14 @@ const router = createBrowserRouter([
         path:'/',
         element: <About></About>
       },
+      
       {
         path:'/admin01748662245',
         element:<Admin/>
+      },
+      {
+        path:'/studytracker',
+        element:<Studytracker/>
       },
       {
         path:'/mypost01748662245',

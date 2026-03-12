@@ -55,7 +55,7 @@ const EducationSection = () => {
                     <GraduationCap className="h-8 w-8 text-cyan-400" />
                   </div>
                   <h2 className="text-3xl font-bold text-white">
-                    SSC
+                    GSC 
                   </h2>
                 </div>
                 <div className="flex justify-between">

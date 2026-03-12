@@ -4,6 +4,7 @@ import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineCall, MdOutlineEmail } from "react-icons/md";
+import { Link } from "lucide-react";
 
 const Contact = () => {
     const handleSubmit = (e) => {
@@ -82,6 +83,15 @@ const Contact = () => {
                             <IoLocationOutline />
                             Natore ,Bangladesh
                         </p>
+      <Link to="/studytracker">
+  <button
+    type="button"
+    className="cursor-pointer dark:border-slate-700 py-2.5 px-6 bg-gray-800 border text-gray-300 transition-all duration-300 hover:border-gray-800 hover:bg-purple-950 hover:text-white rounded-md text-[1rem] mt-[10px] w-max"
+  >
+    Student card
+  </button>
+</Link>
+                       
                     </div>
                 </aside>
 
@@ -142,6 +152,7 @@ const Contact = () => {
                             >
                                 Send Message
                             </button>
+                            
                         </div>
                     </form>
                 </div>
